@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inputs Demo</title>
+</head>
+<body>
+    <p>Do you prefer cats or dogs?</p>
+    <form>
+        <!-- Give the "label for"and "input id" (i.e. "dogs") the same value to link them together -->
+        <!-- The  input name is important as it is how it is sent in the http request-->
+        <!-- By having both "dogs" and "cats use the same input name you ensure only one radio button is selected" -->
+        
+        <!-- Radio Button Input Type -->
+        <label for="dogs">Dogs: </label>
+        <input name="petChoice" id="dogs" type="radio" value="DOGS">
+
+        <label for="cats">Cats: </label>
+        <input name="petChoice" id="cats" type="radio" value="CATS">
+
+        <!-- The select tag -->
+        <p>What is your current mood?</p> 
+        <select name="mood" id="">
+            <option value="happy">:)</option>
+            <option value="meh">:|</option>
+            <option value="sad">:(</option>
+        </select>
+        <!-- The text area tag -->
+        <p></p>
+        <textarea name="" id="" cols="30" rows="3"></textarea>
+        <p></p>
+        <button>Go!</button>
+    </form>
+
+</body>
+</html>
