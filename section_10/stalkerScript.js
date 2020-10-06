@@ -1,5 +1,5 @@
 var firstName = prompt("What's your first name?");
-var lastName = prompt("What is your last name?");
+var lastName = prompt("What's your last name?");
 var fullName = firstName + " " + lastName;
 
 var age = prompt("How old are you?");
